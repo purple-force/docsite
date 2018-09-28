@@ -1,0 +1,13 @@
+{
+  "extends": "eslint-config-egg",
+  "parserOptions": {
+    "ecmaVersion": 2017
+  },
+  "rules": {
+    "array-bracket-spacing": 0
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}

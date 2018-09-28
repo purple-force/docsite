@@ -1,0 +1,8 @@
+node_modules/
+.travis.yml
+*.swp
+.DS_Store
+.idea
+npm-debug.log
+coverage
+test

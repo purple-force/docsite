@@ -22,59 +22,58 @@
 
 # Docsite
 
-Docsite is an opensource generator for building an static website, and you can init a website in a few minutes by it.
+docsite 是一款开源站点搭建工具，依据其提供的功能，能够快速搭建一个开源站点。
 
-## Feature
+## 特性
 
-- Be able to generate document, blog, and custom page
-- Support markdown files
-- Responsive UI
-- Good for SEO 
-- Support internationalization
-- Support custom page
+- 支持文档、博客、项目首页一键生成
+- 支持markdown文件
+- 跨屏幕适配的 UI
+- SEO 优化
+- 国际化
+- 支持自定义页面
 
-## Document
+## 文档
 
-- [Quick Start](https://docsite.js.org/en-us/docs/installation.html)
-- [中文说明](./README_zh.md)
+- [快速开始](https://docsite.js.org/zh-cn/docs/installation.html)
+- [English Verion](./README.md)
 
-## User
+## 谁在使用
 
 [![Dubbo](https://gw.alicdn.com/tfs/TB17zlswBjTBKNjSZFuXXb0HFXa-300-64.png)](https://dubbo.incubator.apache.org/en-us/)
 
 
 [![Nacos](https://gw.alicdn.com/tfs/TB1SxFhwpooBKNjSZFPXXXa2XXa-300-64.png)](https://nacos.io/en-us/)
 
-
 [![AiMatrix](https://img.alicdn.com/tfs/TB1FQFVw8jTBKNjSZFwXXcG4XXa-300-64.jpg)](https://aimatrix.ai)
 
-## Dependency
+## 依赖
 
 - node.js > 6.x
 
-## Usage
+## 快速开始
 
-- Install
+1、Install
 
 ```
 $ npm i -g docsite
 ```
 
-- Init a project
+2、Init a project
 
 ```
 $ cd my-project
 $ docsite init
 ```
 
-- Local preview
+3、Local preview
 
 
 ```
 $ docsite start
 ```
 
-- Build
+4、Build
 
 ```
 $ docsite build
