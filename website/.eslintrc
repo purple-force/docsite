@@ -17,11 +17,12 @@
     "Lang": {}
   },
   "rules": {
-    "max-len": 0, //关闭最大长度限制
+    "max-len": 0,
     "new-cap": [2, { "newIsCap": true, "properties": false }],
     "react/jsx-indent": 0,
     "react/jsx-indent-props": 0,
     "indent": 0,
-    "radix": ["error", "as-needed"]
+    "radix": ["error", "as-needed"],
+    "linebreak-style": [0 ,"error", "windows"]
   }
 }
