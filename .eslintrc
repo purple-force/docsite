@@ -4,7 +4,8 @@
     "ecmaVersion": 2017
   },
   "rules": {
-    "array-bracket-spacing": 0
+    "array-bracket-spacing": 0,
+    "linebreak-style": [0 ,"error", "windows"]
   },
   "env": {
     "browser": true,
