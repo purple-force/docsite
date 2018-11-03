@@ -6,6 +6,8 @@
 [![David deps][david-image]][david-url]
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 [![npm download][download-image]][download-url]
+[![Backers on Open Collective](https://opencollective.com/docsite/backers/badge.svg)](#backers)
+[![Sponsors on Open Collective](https://opencollective.com/docsite/sponsors/badge.svg)](#sponsors) 
 
 [npm-image]: https://img.shields.io/npm/v/docsite.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/docsite
@@ -79,3 +81,33 @@ $ docsite start
 ```
 $ docsite build
 ```
+
+## Contributors
+
+This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
+<a href="https://github.com/txd-team/docsite/contributors"><img src="https://opencollective.com/docsite/contributors.svg?width=890&button=false" /></a>
+
+
+## Backers
+
+Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/docsite#backer)]
+
+<a href="https://opencollective.com/docsite#backers" target="_blank"><img src="https://opencollective.com/docsite/backers.svg?width=890"></a>
+
+
+## Sponsors
+
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/docsite#sponsor)]
+
+<a href="https://opencollective.com/docsite/sponsor/0/website" target="_blank"><img src="https://opencollective.com/docsite/sponsor/0/avatar.svg"></a>
+<a href="https://opencollective.com/docsite/sponsor/1/website" target="_blank"><img src="https://opencollective.com/docsite/sponsor/1/avatar.svg"></a>
+<a href="https://opencollective.com/docsite/sponsor/2/website" target="_blank"><img src="https://opencollective.com/docsite/sponsor/2/avatar.svg"></a>
+<a href="https://opencollective.com/docsite/sponsor/3/website" target="_blank"><img src="https://opencollective.com/docsite/sponsor/3/avatar.svg"></a>
+<a href="https://opencollective.com/docsite/sponsor/4/website" target="_blank"><img src="https://opencollective.com/docsite/sponsor/4/avatar.svg"></a>
+<a href="https://opencollective.com/docsite/sponsor/5/website" target="_blank"><img src="https://opencollective.com/docsite/sponsor/5/avatar.svg"></a>
+<a href="https://opencollective.com/docsite/sponsor/6/website" target="_blank"><img src="https://opencollective.com/docsite/sponsor/6/avatar.svg"></a>
+<a href="https://opencollective.com/docsite/sponsor/7/website" target="_blank"><img src="https://opencollective.com/docsite/sponsor/7/avatar.svg"></a>
+<a href="https://opencollective.com/docsite/sponsor/8/website" target="_blank"><img src="https://opencollective.com/docsite/sponsor/8/avatar.svg"></a>
+<a href="https://opencollective.com/docsite/sponsor/9/website" target="_blank"><img src="https://opencollective.com/docsite/sponsor/9/avatar.svg"></a>
+
+
