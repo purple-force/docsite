@@ -20,7 +20,8 @@
     "lint": "eslint --ext .js bin lib || exit 0",
     "test": "npm run test-reset && npm run test-local",
     "test-local": "egg-bin test --timeout 120000",
-    "test-reset": "rimraf test/docsite-project && mkdir test/docsite-project"
+    "test-reset": "rimraf test/docsite-project && mkdir test/docsite-project",
+    "postinstall": "opencollective-postinstall"
   },
   "engines": {
     "node": ">=6.4.0"
@@ -55,9 +56,11 @@
     "markdown-it-link-attributes": "^2.0.0",
     "markdown-it-replace-link": "^1.0.1",
     "node-sass": "^4.9.2",
+    "opencollective-postinstall": "^2.0.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "shelljs": "^0.8.2"
+    "shelljs": "^0.8.2",
+    "opencollective": "^1.0.3"
   },
   "devDependencies": {
     "babel-eslint": "^9.0.0",
@@ -69,5 +72,9 @@
     "eslint-config-prettier": "^3.0.1",
     "eslint-plugin-import": "^2.14.0",
     "prettier": "^1.14.2"
+  },
+  "collective": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/docsite"
   }
 }
