@@ -20,9 +20,17 @@ export const getScrollTop = () => {
   return scrollTop;
 };
 
-export const getLink = link => {
+export const getLink = (link) => {
   if (`${link}`.length > 1 && /^\/[^/]/.test(`${link}`)) {
     return `${window.rootPath}${link}`;
   }
   return link;
 };
+
+export const parseJSONStr = (str) => {
+  try {
+    return JSON.parse(str);
+  } catch (err) {
+    return str;
+  }
+}

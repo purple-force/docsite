@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import cookie from 'js-cookie';
 import { scroller } from 'react-scroll';
 import 'whatwg-fetch'; // fetch polyfill
 import path from 'path';

@@ -45,6 +45,7 @@
     .menu-item {
       font-family: Avenir-Heavy;
       font-size: 14px;
+      vertical-align: bottom;
     }
     .menu-item-primary {
       a {
@@ -86,7 +87,6 @@
     }
     .language-switch {
       float: right;
-      display: inline-block;
       box-sizing: border-box;
       width: 24px;
       height: 24px;
