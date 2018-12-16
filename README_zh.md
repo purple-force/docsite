@@ -64,6 +64,9 @@ $ npm i -g docsite
 ```
 $ cd my-project
 $ docsite init
+
+# or
+$ docsite init my-project
 ```
 
 3、Local preview

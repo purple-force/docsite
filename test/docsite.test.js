@@ -29,11 +29,8 @@ describe('test/docsite.test.js', () => {
   describe('docsite init', () => {
     it('docsite init', function* () {
       const { stdout, code } = yield coffee
-        .fork(myBin, ['init'], {
+        .fork(myBin, ['init', '.'], {
           cwd,
-          env: {
-            ENV: 'unittest',
-          },
         })
         .end();
       assert(stdout.includes('Congratulations, init succeed!'));
@@ -44,10 +41,9 @@ describe('test/docsite.test.js', () => {
       const { stdout, code } = yield coffee
         .fork(myBin, ['init'], {
           cwd,
-          env: {
-            ENV: 'unittest',
-          },
         })
+        // .waitForPrompt()
+        .write('.\n')
         .end();
       assert(stdout.includes('This project has been initialized'));
       assert(code === 0);

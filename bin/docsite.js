@@ -13,15 +13,17 @@ async function main() {
   program
     .version(version)
     .usage('<command> [options]')
-    .option('init', 'init project')
+    .option('init', 'init [project]')
     .option('start', 'start a local server')
     .option('build', 'build assets')
     .parse(process.argv);
   const type = process.argv.slice(2)[0];
   switch (type) {
-    case 'init':
-      await init();
+    case 'init': {
+      const dir = process.argv.slice(2)[1];
+      await init(dir);
       break;
+    }
     case 'start':
       start();
       break;
