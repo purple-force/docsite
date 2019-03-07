@@ -8,8 +8,7 @@
 	<script>
     window.rootPath = '<%= rootPath %>';
     window.defaultLanguage = '<%= defaultLanguage %>';
-    var browserLang = navigator.language || navigator.userLanguage;
-    var lang = Cookies.get('docsite_language') || browserLang.toLowerCase();
+    var lang = Cookies.get('docsite_language');
     if (!lang) {
       lang = '<%= defaultLanguage %>';
     }
