@@ -1,4 +1,4 @@
-![LOGO](https://img.alicdn.com/tfs/TB1PSVuwaQoBKNjSZJnXXaw9VXa-576-95.png)
+![LOGO](https://img.alicdn.com/tfs/TB1YGpBHxjaK1RjSZFAXXbdLFXa-254-50.png)
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -42,10 +42,21 @@ docsite 是一款开源站点搭建工具，依据其提供的功能，能够快
 
 [![Dubbo](https://gw.alicdn.com/tfs/TB17zlswBjTBKNjSZFuXXb0HFXa-300-64.png)](https://dubbo.incubator.apache.org/en-us/)
 
-
 [![Nacos](https://gw.alicdn.com/tfs/TB1SxFhwpooBKNjSZFPXXXa2XXa-300-64.png)](https://nacos.io/en-us/)
 
 [![AiMatrix](https://img.alicdn.com/tfs/TB1FQFVw8jTBKNjSZFwXXcG4XXa-300-64.jpg)](https://aimatrix.ai)
+
+[![WHARFOO](https://wharfoo.github.io/img/wharfoo_blue.png)](https://wharfoo.github.io)
+
+[![Alibaba Infra](https://img.alicdn.com/tfs/TB1F579nxjaK1RjSZFAXXbdLFXa-366-46.png)](http://www.alibabainfra.org)
+
+[![Sentinel](https://sentinelguard.io/img/sentinel_colorful.png)](https://sentinelguard.io)
+
+[![Dragonfly](https://img.alicdn.com/tfs/TB1ThlOucfpK1RjSZFOXXa6nFXa-266-72.png)](https://d7y.io)
+
+[![TX-LCN](http://www.txlcn.org/img/txlcn.png)](http://www.txlcn.org)
+
+
 
 ## 依赖
 
