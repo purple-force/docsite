@@ -1,12 +1,9 @@
 import React from 'react';
-import { autobind } from 'core-decorators';
 import cookie from 'js-cookie';
 import siteConfig from '../../../site_config/site';
 
-@autobind
 class Language extends React.Component {
-  
-  onLanguageChange(language) {
+  onLanguageChange = (language) => {
     const pathname = window.location.pathname;
     let oldLang;
     if (language === 'zh-cn') {
@@ -19,7 +16,7 @@ class Language extends React.Component {
     window.location = newPathname;
   }
 
-  getLanguage() {
+  getLanguage = () => {
     const urlLang = window.location.pathname.replace(window.rootPath || '', '').split('/')[1];
     let language = this.props.lang || urlLang || cookie.get('docsite_language') || siteConfig.defaultLanguage;
     // 防止链接被更改导致错误的cookie存储

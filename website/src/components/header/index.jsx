@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
-import { autobind } from 'core-decorators';
 import siteConfig from '../../../site_config/site';
 import { getLink } from '../../../utils';
 import './index.scss';
@@ -16,16 +15,7 @@ const languageSwitch = [
     value: 'zh-cn',
   },
 ];
-const searchSwitch = {
-  baidu: {
-    logo: 'https://img.alicdn.com/tfs/TB1n6DQayLaK1RjSZFxXXamPFXa-300-300.png',
-    url: 'https://www.baidu.com/s?wd=',
-  },
-  google: {
-    logo: 'https://img.alicdn.com/tfs/TB1REfuaCzqK1RjSZFjXXblCFXa-300-300.jpg',
-    url: 'https://www.google.com/search?q=',
-  },
-};
+
 const noop = () => {};
 const propTypes = {
   currentKey: PropTypes.string,
@@ -40,16 +30,12 @@ const defaultProps = {
   onLanguageChange: noop,
 };
 
-@autobind
 class Header extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       menuBodyVisible: false,
       language: props.language,
-      search: siteConfig.defaultSearch,
-      searchValue: '',
-      inputVisible: false,
     };
   }
 
@@ -59,13 +45,13 @@ class Header extends React.Component {
     });
   }
 
-  toggleMenu() {
+  toggleMenu = () => {
     this.setState({
       menuBodyVisible: !this.state.menuBodyVisible,
     });
   }
 
-  switchLang() {
+  switchLang = () => {
     let language;
     if (this.state.language === 'zh-cn') {
       language = 'en-us';
@@ -78,44 +64,9 @@ class Header extends React.Component {
     this.props.onLanguageChange(language);
   }
 
-  switchSearch() {
-    let search;
-    if (this.state.search === 'baidu') {
-      search = 'google';
-    } else {
-      search = 'baidu';
-    }
-    this.setState({
-      search,
-    });
-  }
-
-  toggleSearch() {
-    this.setState({
-      searchVisible: !this.state.searchVisible,
-    });
-  }
-
-  onInputChange(e) {
-    this.setState({
-      searchValue: e.target.value,
-    });
-  }
-
-  goSearch() {
-    const { search, searchValue } = this.state;
-    window.open(`${searchSwitch[search].url}${window.encodeURIComponent(`${searchValue} site:${siteConfig.domain}`)}`);
-  }
-
-  onKeyDown(e) {
-    if (e.keyCode === 13) {
-      this.goSearch();
-    }
-  }
-
   render() {
     const { type, logo, onLanguageChange, currentKey } = this.props;
-    const { menuBodyVisible, language, search, searchVisible } = this.state;
+    const { menuBodyVisible, language } = this.state;
     return (
       <header
         className={
@@ -129,28 +80,6 @@ class Header extends React.Component {
           <a href={getLink(`/${language}/index.html`)}>
             <img className="logo" alt={siteConfig.name} title={siteConfig.name} src={getLink(logo)} />
           </a>
-          {
-            siteConfig.defaultSearch ?
-            (
-              <div
-                className={classnames({
-                  search: true,
-                  [`search-${type}`]: true,
-                })}
-              >
-                <span className="icon-search" onClick={this.toggleSearch} />
-                {
-                  searchVisible ?
-                  (
-                    <div className="search-input">
-                      <img src={searchSwitch[search].logo} onClick={this.switchSearch} />
-                      <input autoFocus onChange={this.onInputChange} onKeyDown={this.onKeyDown} />
-                    </div>
-                  ) : null
-                }
-              </div>
-            ) : null
-          }
           {
             onLanguageChange !== noop ?
             (<span

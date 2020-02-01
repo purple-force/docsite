@@ -4,13 +4,12 @@
 
 const chalk = require('chalk');
 const program = require('commander');
-const co = require('co');
 const init = require('../lib/init');
 const start = require('../lib/start');
 const build = require('../lib/build');
-const version = require('../package.json').version;
+const { version } = require('../package.json');
 
-co(function* main() {
+const main = async () => {
   program
     .version(version)
     .usage('<command> [options]')
@@ -22,7 +21,7 @@ co(function* main() {
   switch (type) {
     case 'init': {
       const dir = process.argv.slice(2)[1];
-      yield init(dir);
+      await init(dir);
       break;
     }
     case 'start':
@@ -34,4 +33,6 @@ co(function* main() {
     default:
       console.log(chalk.red(`please input ${chalk.green('docsite -h')} for help`));
   }
-});
+};
+
+main();

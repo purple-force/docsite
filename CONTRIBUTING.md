@@ -37,7 +37,7 @@ commit message 需要命名统一为：
 4. body - 可选，补充的说明
 
 - **当有非兼容修改(Breaking Change)时必须在这里描述清楚**
-- 关联相关 issue，如 `Closes #1, Closes #2, #3`
+- 关联相关 issue，如 `Close #1, Close #2, #3`
 - 如果功能点有新增或修改的，还需要关联文档 `doc` 的 PR，如 `txd-team/docsite-doc-v1#123`
 
 ## 文档编写
