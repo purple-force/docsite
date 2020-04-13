@@ -39,7 +39,6 @@ docsite 是一款开源站点搭建工具，依据其提供的功能，能够快
 - [English Version](./README.md)
 
 ## 谁在使用
-
 [![Dubbo](https://gw.alicdn.com/tfs/TB17zlswBjTBKNjSZFuXXb0HFXa-300-64.png)](https://dubbo.incubator.apache.org/en-us/)
 
 [![Nacos](https://gw.alicdn.com/tfs/TB1SxFhwpooBKNjSZFPXXXa2XXa-300-64.png)](https://nacos.io/en-us/)
@@ -55,6 +54,10 @@ docsite 是一款开源站点搭建工具，依据其提供的功能，能够快
 [![Dragonfly](https://img.alicdn.com/tfs/TB1ThlOucfpK1RjSZFOXXa6nFXa-266-72.png)](https://d7y.io)
 
 [![TX-LCN](http://www.txlcn.org/img/txlcn.png)](http://www.txlcn.org)
+
+[![SEATA](http://img.alicdn.com/tfs/TB1gqL1w4D1gK0jSZFyXXciOVXa-1497-401.png)](http://seata.io/)
+
+[![WUHAN2020](https://community.wuhan2020.org.cn/images/wuhan2020-logo.png)](https://community.wuhan2020.org.cn/)
 
 
 

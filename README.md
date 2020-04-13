@@ -41,7 +41,6 @@ Docsite is an opensource generator for building an static website, and you can i
 - [中文说明](./README_zh.md)
 
 ## User
-
 [![Dubbo](https://gw.alicdn.com/tfs/TB17zlswBjTBKNjSZFuXXb0HFXa-300-64.png)](https://dubbo.incubator.apache.org/en-us/)
 
 [![Nacos](https://gw.alicdn.com/tfs/TB1SxFhwpooBKNjSZFPXXXa2XXa-300-64.png)](https://nacos.io/en-us/)
@@ -57,6 +56,10 @@ Docsite is an opensource generator for building an static website, and you can i
 [![Dragonfly](https://img.alicdn.com/tfs/TB1ThlOucfpK1RjSZFOXXa6nFXa-266-72.png)](https://d7y.io)
 
 [![TX-LCN](http://www.txlcn.org/img/txlcn.png)](http://www.txlcn.org)
+
+[![SEATA](http://img.alicdn.com/tfs/TB1gqL1w4D1gK0jSZFyXXciOVXa-1497-401.png)](http://seata.io/)
+
+[![WUHAN2020](https://community.wuhan2020.org.cn/images/wuhan2020-logo.png)](https://community.wuhan2020.org.cn/)
 
 ## Dependency
 
