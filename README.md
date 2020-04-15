@@ -58,6 +58,10 @@ Docsite is an opensource generator for building an static website, and you can i
 
 [![TX-LCN](http://www.txlcn.org/img/txlcn.png)](http://www.txlcn.org)
 
+[![SEATA](http://img.alicdn.com/tfs/TB1gqL1w4D1gK0jSZFyXXciOVXa-1497-401.png)](http://seata.io/)
+
+[![WUHAN2020](https://community.wuhan2020.org.cn/images/wuhan2020-logo.png)](https://community.wuhan2020.org.cn/)
+
 ## Dependency
 
 - node.js > 6.x
