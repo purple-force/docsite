@@ -60,7 +60,7 @@ docsite 是一款开源站点搭建工具，依据其提供的功能，能够快
 
 [![WUHAN2020](https://community.wuhan2020.org.cn/images/wuhan2020-logo.png)](https://community.wuhan2020.org.cn/)
 
-
+[![ApiBoot](https://apiboot.minbox.org/img/apiboot-colorful.png)](https://apiboot.minbox.org)
 
 ## 依赖
 

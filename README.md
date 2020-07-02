@@ -62,6 +62,8 @@ Docsite is an opensource generator for building an static website, and you can i
 
 [![WUHAN2020](https://community.wuhan2020.org.cn/images/wuhan2020-logo.png)](https://community.wuhan2020.org.cn/)
 
+[![ApiBoot](https://apiboot.minbox.org/img/apiboot-colorful.png)](https://apiboot.minbox.org)
+
 ## Dependency
 
 - node.js > 6.x
