@@ -3,6 +3,7 @@ node_modules/
 *.swp
 .DS_Store
 .idea
+.git
 npm-debug.log
 coverage
 test
