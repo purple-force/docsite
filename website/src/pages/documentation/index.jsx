@@ -43,7 +43,7 @@ class Documentation extends Language {
           duration: 1000,
           smooth: 'easeInOutQuint',
         });
-        location.hash = "#" + id;
+        location.hash = `#${id}`;
       }
     });
   }
@@ -53,7 +53,7 @@ class Documentation extends Language {
     this.handleRelativeImg();
     const hash = location.hash;
     if (hash) {
-      const id = hash.replace(/^#/g, "");
+      const id = hash.replace(/^#/g, '');
       scroller.scrollTo(id, {
         duration: 1000,
         smooth: 'easeInOutQuint',
