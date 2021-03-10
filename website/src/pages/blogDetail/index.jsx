@@ -47,6 +47,14 @@ class BlogDetail extends Language {
   componentDidUpdate() {
     this.handleRelativeLink();
     this.handleRelativeImg();
+    const hash = location.hash;
+    if (hash) {
+      const id = hash.replace(/^#/g, "");
+      scroller.scrollTo(id, {
+        duration: 1000,
+        smooth: 'easeInOutQuint',
+      });
+    }
   }
 
   handleRelativeLink() {
