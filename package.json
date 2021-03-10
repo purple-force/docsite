@@ -66,6 +66,7 @@
     "js-yaml": "^3.12.0",
     "jsdom": "^11.12.0",
     "markdown-it": "^8.4.1",
+    "markdown-it-anchor": "^7.1.0",
     "markdown-it-footnote": "^3.0.1",
     "markdown-it-github-preamble": "^1.0.0",
     "markdown-it-github-toc": "^3.2.4",
