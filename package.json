@@ -1,7 +1,7 @@
 {
   "name": "docsite",
-  "version": "1.3.9",
-  "description": "a tool for build static doc site(react)",
+  "version": "1.3.10",
+  "description": "A tool for build static doc site(react)",
   "bin": {
     "docsite": "./bin/docsite.js"
   },

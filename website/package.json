@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "start": "docsite start",
-    "build": "docsite build",
-    "local": "../bin/docsite.js start"
+    "build": "docsite build"
   },
   "devDependencies": {
     "@babel/core": "^7.6.0",
